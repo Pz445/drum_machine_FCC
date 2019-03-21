@@ -6,7 +6,7 @@ class DrumMachine extends React.Component {
   state = {
     keyArray: ["Q", "W", "E", "A", "S", "D", "Z", "X", "C"],
     soundArray: ["Clap", "Crash", "Hi-Hat(Closed)", "Hi-Hat(Open)", "Kick", "Perc", "Ride", "Snare 1", "Snare 2"],
-    srcArray: ["../src/sounds/Clap.wav", "../sounds/Crash.wav", "../sounds/HiHat_closed.wav", "../sounds/HiHat_open.wav", "../sounds/Kick.wav", "../sounds/Perc.wav", "../sounds/Ride.wav", "../sounds/Snare_1.wav", "../sounds/Snare_2.wav"],
+    srcArray: ["../sounds/Clap.wav", "../sounds/Crash.wav", "../sounds/HiHat_closed.wav", "../sounds/HiHat_open.wav", "../sounds/Kick.wav", "../sounds/Perc.wav", "../sounds/Ride.wav", "../sounds/Snare_1.wav", "../sounds/Snare_2.wav"],
   }
 
 

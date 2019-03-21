@@ -16,7 +16,7 @@ window.addEventListener('keydown', (e) => {
     return;
   }
   console.log(audio)
-  audio.play();
+  audio.play()
 })
 
 export default DrumPad;
