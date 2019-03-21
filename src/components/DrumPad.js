@@ -2,6 +2,8 @@ import React from 'react'
 
 
 const DrumPad = (props) => {
+
+
   return (
     <div className="drum-pad" id={props.sound}>
       <p className="drum-pad-text">{props.id}</p>
@@ -13,10 +15,11 @@ const DrumPad = (props) => {
 window.addEventListener('keydown', (e) => {
   let audio = document.getElementById(e.key.toUpperCase())
   if (!audio) {
-    return;
+    return undefined;
   }
-  console.log(audio)
-  audio.play()
+  audio.currentTime = 0;
+  audio.play();
 })
+
 
 export default DrumPad;
