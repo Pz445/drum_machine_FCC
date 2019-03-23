@@ -40,7 +40,6 @@ class DrumMachine extends React.Component {
     this.setState({
       displayText: e.target.closest('div').childNodes[1].textContent
     })
-    console.log(this.state.displayText)
     audio.parentElement.classList.add("playing");
     audio.currentTime = 0;
     audio.play();
